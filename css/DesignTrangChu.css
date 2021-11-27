@@ -13,6 +13,22 @@
     width: 1760px;
     margin: 0 auto;
 }
+.row-detail{
+    display: flex;
+    /* margin-left: -5px; */
+    /* margin-right: -5px; */
+    flex-wrap: wrap;
+}
+.row{
+    margin-left: -6px;
+    margin-right: -6px;
+}
+.col-6-12{
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: calc(6 / 12 * 100% - 1px);
+}
 .name{
     padding-top: 50px;
     font-size: 35px;
@@ -40,9 +56,9 @@
     font-size: 1.2rem;
     text-align: center;
 }
-.btn{
-    display: flex;
-    justify-content: center;
+.btn-choose{
+    margin-left: 215px;
+    margin-bottom: 10px;
 }
 .btn-course{
     padding: 8px 32px;
@@ -52,6 +68,7 @@
     color: #fff;
     border: 1px solid #FF6600;
     border-radius: 2px;
+    text-decoration: none;
 }
 .btn-course:hover{
     color: #000;
@@ -61,4 +78,12 @@
     padding: 50px 0 100px 0;
     display: flex;
     justify-content: center;
+}
+.flex{
+    display: flex;
+    list-style: none;
+}
+/* Đăng ký */
+.btn-res{
+    padding: 8px 12px;
 }

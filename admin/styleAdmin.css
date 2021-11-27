@@ -1,0 +1,23 @@
+.header-page{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+.list{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.list-items{
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    color: #000;
+}
+.change{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
